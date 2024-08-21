@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/afsolis/propuesta/static/css/main.082fe914.css",
-    "main.js": "/afsolis/propuesta/static/js/main.679fa3c8.js",
-    "static/js/488.9996675b.chunk.js": "/afsolis/propuesta/static/js/488.9996675b.chunk.js",
-    "static/media/Reian Mia.png": "/afsolis/propuesta/static/media/Reian Mia.0570be6a5d7eaff7438e.png",
-    "index.html": "/afsolis/propuesta/index.html",
-    "main.082fe914.css.map": "/afsolis/propuesta/static/css/main.082fe914.css.map",
-    "main.679fa3c8.js.map": "/afsolis/propuesta/static/js/main.679fa3c8.js.map",
-    "488.9996675b.chunk.js.map": "/afsolis/propuesta/static/js/488.9996675b.chunk.js.map"
+    "main.css": "/propuesta/static/css/main.8e61eed3.css",
+    "main.js": "/propuesta/static/js/main.e00698eb.js",
+    "static/js/488.9996675b.chunk.js": "/propuesta/static/js/488.9996675b.chunk.js",
+    "static/media/Reian Mia.png": "/propuesta/static/media/Reian Mia.0570be6a5d7eaff7438e.png",
+    "index.html": "/propuesta/index.html",
+    "main.8e61eed3.css.map": "/propuesta/static/css/main.8e61eed3.css.map",
+    "main.e00698eb.js.map": "/propuesta/static/js/main.e00698eb.js.map",
+    "488.9996675b.chunk.js.map": "/propuesta/static/js/488.9996675b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.082fe914.css",
-    "static/js/main.679fa3c8.js"
+    "static/css/main.8e61eed3.css",
+    "static/js/main.e00698eb.js"
   ]
 }
