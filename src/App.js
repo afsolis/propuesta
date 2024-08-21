@@ -66,7 +66,7 @@ function App() {
             <button className="yes-button" onClick={handleYesClick}>Shí 🥰</button>
             <button
               className="no-button"
-              onClick={handleNoClick}
+              onClick={moveNoButton}
               onMouseEnter={moveNoButton}
               style={initialPosition ? {} : { position: 'absolute', ...buttonPosition }}
             >
