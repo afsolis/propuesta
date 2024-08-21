@@ -1,0 +1,199 @@
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+}
+
+.app::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('C:/Users/PC/Desktop/karol/proposal-app/public/Reian Mia.png');
+  background-size: cover;
+  filter: brightness(50%);
+  z-index: -1;
+}
+
+.heart {
+  position: relative;
+  width: 200px;
+  height: 180px;
+  margin: auto;
+  background-color: red;
+  transform: rotate(-45deg);
+  z-index: 1;
+}
+
+.heart:before,
+.heart:after {
+  content: "";
+  position: absolute;
+  width: 200px;
+  height: 180px;
+  border-radius: 100px 100px 100px 0;
+  background-color: red;
+  z-index: 1;
+}
+
+.heart:before {
+  top: -100px;
+  left: 0;
+}
+
+.heart:after {
+  left: 100px;
+  top: 0;
+}
+
+.heart-content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: rotate(45deg) translate(-50%, -50%);
+  width: 200px;
+  height: 140px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  z-index: 2;
+}
+.tocame {
+  z-index: 4;
+}
+
+.title {
+  font-size: 1.3em;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: rgba(247, 0, 0, 0.862);
+  background: #fff;
+}
+
+.message {
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.yes-button, .no-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.yes-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.yes-button:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.no-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.no-button:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
+}
+
+.special-message {
+  position: center;
+  left: 0%;
+  z-index: 3;
+  font-size: 1.5em;
+  color: #ff69b4;
+  animation: heartBeat 1s infinite;
+  background: #fff;
+  white-space: nowrap;
+}
+
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  20% { transform: scale(1.2); }
+  40% { transform: scale(1); }
+  60% { transform: scale(1.2); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+/* Nuevo código para el botón en forma de corazón */
+.start-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: transparent;
+}
+
+.heart-button {
+  width: 100px;
+  height: 100px;
+  background-color: #ff1414;
+  position: relative;
+  border: none;
+  cursor: pointer;
+  transform: rotate(-45deg);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-button:before,
+.heart-button:after {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background-color:#ff1414;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.heart-button:before {
+  top: -50px;
+  left: 0;
+}
+
+.heart-button:after {
+  left: 50px;
+  top: 0;
+}
+
+.heart-button:hover {
+  background-color: #ff1414;
+}
+
+/* Estilo para el texto dentro del botón */
+.heart-button span {
+  color: white;
+  font-size: 1em;
+  text-align: center;
+  transform: rotate(45deg);
+  z-index: 4;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
