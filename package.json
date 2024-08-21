@@ -1,6 +1,6 @@
 {
   "name": "proposal-app",
-  "homepage": "https://andressolisvalle.github.io/propuesta",
+  "homepage": "https://github.com/afsolis/propuesta",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
